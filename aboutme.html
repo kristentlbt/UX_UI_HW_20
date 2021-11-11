@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Raleway:wght@300;400&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Raleway:wght@300;400&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="page-margin">
+
+
+    <ul class="nav">
+        <li class="rightAlign"><a class = "homeButton" href="index.html">Home</a></li>
+        <li class="rightAlign"><a class = "resumeButton" href="resume.html">My Resume</a></li>
+        <li class="rightAlign"><a class = "projectsButton" href="projects.html">Projects</a></li>
+        <li class="rightAlign"><a class = "aboutMe" href="aboutme.html">About Me</a></li>
+
+        <div>
+            <a href = ""> <img src="images/Icon awesome-star-and-crescent.png" alt="nav image" style="width:25px;height:25px; float: left; padding-right: 10px; padding-left: 20px;"></a>
+            <p>Kristen Talbot</p>
+          </div>
+    </ul>
+
+    <div class="mobile-container">
+        <div class="topnav">
+          <div class="logo">
+            <a href=""> <img src="images/Icon awesome-star-and-crescent.png" alt="nav image"
+                style="width:25px;height:25px; float: left; padding-right: 10px; padding-left: 20px;"></a>
+            <p class="name">Kristen Talbot</p>
+          </div>
+          <div id="myLinks">
+            <a href="aboutme.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="resume.html">My Resume</a>
+            <a href="index.html">Home</a>
+          </div>
+    
+         
+    
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars fa-lg"></i>
+          </a>
+        </div>
+      </div>
+
+    <div class=aboutMeSection>
+        <img class = picOfMe src="images/me.JPG" alt="Photo of me">
+
+        <div class=info>
+            <h4 id="aboutMe">Hello, I'm Kristen! A UX/UI designer. I strive to solve complex
+                problems with creative simplicity.
+                
+                <br>
+                I come from a backgorund in mobile
+                and web development, graduating from Kennesaw State University with
+                a degree in Information Technology and a minor in Computer Science.
+
+                <br>
+
+                I have also completed a Georgia Tech UX/UI bootcamp where I was able
+                to utilize my technological background and learn
+                valuable skills such as Qualitative & Quantitative research methodologies, Persona Creation,
+                Storyboarding, prototyping on Figma, InVision, and Adobe XD, and more.
+
+                <br>
+
+                In my spare time, I enjoy playing golf, crocheting, painting, and spending time
+                with my four animals!
+            </h4>
+            <div class="buttonWrap">
+                <button id="resumeButton" onclick="location.href='resume.html';"> Click Here to View My Resume </button>
+            </div>
+        </div>
+    </div>
+
+    <hr color="#FFDED9" , size="1px">
+    <footer>
+      <div class="footer">
+  
+        <ul class = "footerItems">
+  
+          <a href="mailto:kristentlbt23@gmail.com"> <img id="email" src="images/Icon material-email.png" alt="email image"
+              style="width:40px;height:auto; padding-right: 18px;"></a>
+          <a href="https://www.linkedin.com/in/kristen-talbot-8a387614a/"> <img id="linkedin" src="images/Icon awesome-linkedin.png" alt="email image"
+              style="width:40px;height:auto; padding-right: 18px; "></a>
+          <a href="https://github.com/kristentlbt"> <img id="github" src="images/Icon zocial-github.png" alt="email image"
+              style="width:40px;height:auto;  "></a>
+          <p class="copyright">&copy; Kristen Talbot 2021</p>
+        </ul>
+      </div>
+    </footer>
+  
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+      </script>
+</body>
+
+</html>
